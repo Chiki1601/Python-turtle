@@ -1,0 +1,75 @@
+#mi logo in Python
+
+import turtle
+
+t = turtle.Turtle()
+s = turtle.Screen()
+
+s.bgcolor("#FF6103")
+t.hideturtle()
+t.pensize(3)
+t.speed(3)
+t.pencolor("white")
+t.begin_fill()
+t.fillcolor("white")
+
+
+#M harfi
+t.penup()
+t.goto(-200,-75)
+t.pendown()
+t.left(90)
+t.forward(200)
+t.right(90)
+t.forward(250)
+for i in range(5):
+    t.right(18)
+    t.forward(15)
+t.forward(145)
+t.right(90)
+t.forward(50)
+t.right(90)
+t.forward(120)
+for i in range(5):
+    t.left(18)
+    t.forward(15)
+t.forward(132)
+t.left(90)
+t.forward(160)
+t.right(90)
+t.forward(53)
+t.end_fill()
+
+#M nin içi
+t.penup()
+t.goto(-80,-75)
+t.begin_fill()
+t.fillcolor("white")
+t.pendown()
+t.right(90)
+t.forward(120)
+t.right(90)
+t.forward(50)
+t.right(90)
+t.forward(120)
+t.right(90)
+t.forward(50)
+t.end_fill()
+
+#İ harfi
+t.begin_fill()
+t.fillcolor("white")
+t.setheading(0)
+t.penup()
+t.goto(150,-75)
+t.pendown()
+t.left(90)
+t.forward(205)
+t.right(90)
+t.forward(50)
+t.right(90)
+t.forward(205)
+t.right(90)
+t.forward(50)
+t.end_fill()
+turtle.done()
