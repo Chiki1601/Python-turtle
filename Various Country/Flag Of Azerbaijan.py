@@ -1,0 +1,80 @@
+#flag of Azerbaijan
+from turtle import *
+setup(720,1080)
+speed(10)
+title("Flag of Azerbaijan by Pooja Patel")
+
+pu()
+goto(-400,300)
+def Rectangle():
+    pd()
+    for i in range(2):
+        fd(800)
+        rt(90)
+        fd(200)
+        rt(90)
+        
+color("blue")
+begin_fill()
+Rectangle()
+end_fill()
+
+color("red")
+pu()
+goto(-400,100)
+begin_fill()
+Rectangle()
+end_fill()
+
+color("green")
+pu()
+goto(-400,-100)
+begin_fill()
+Rectangle()
+end_fill()
+
+color("black")
+pu()
+goto(-400,300)
+pd()
+width(2)
+for i in range(2):
+    fd(800)
+    rt(90)
+    fd(600)
+    rt(90)
+    
+color("white")
+pu()
+goto(0,-90)
+pd()
+begin_fill()
+circle(90)
+end_fill()
+
+color("red")
+pu()
+goto(30,-70) 
+pd()
+begin_fill()
+circle(70)
+end_fill()
+color("white")
+pu()
+goto(50,20)
+pd()
+
+begin_fill()
+for i in range(9):
+    fd(100)
+    rt(135)
+end_fill()
+
+color("black")
+pu()
+goto(-100,320)
+pd()
+write("Flag of Azerbaijan",font=("Arial",20,"normal"))
+pu()
+goto(0,100)
+done()
