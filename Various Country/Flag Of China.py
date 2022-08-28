@@ -1,0 +1,55 @@
+#flag of China in Python
+
+from turtle import *
+setup(1000,600,0,0)
+bgcolor("red")
+pencolor("yellow")
+color("yellow")
+speed(10)
+up()
+goto(-100,200)
+begin_fill()
+down()
+def Star():
+    for i in range(5):
+        fd(100)
+        lt(144)
+Star()
+end_fill()
+
+up()
+goto(0,80)
+down()
+begin_fill()
+seth(45)
+Star()
+end_fill()
+up()
+goto(0,-40)
+down()
+begin_fill()
+seth(36)
+Star()
+end_fill()
+up()
+goto(-100,-140)
+down()
+begin_fill()
+seth(0)
+Star()
+end_fill()
+
+up()
+goto(-400,-50)
+down()
+seth(36)
+begin_fill()
+def BigStar():
+    for i in range(5):
+        fd(300)
+        lt(144)
+BigStar()
+end_fill()
+
+ht()
+done()
