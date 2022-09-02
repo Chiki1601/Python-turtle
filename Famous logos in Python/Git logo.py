@@ -1,0 +1,27 @@
+#git logo in Pytohn
+
+from turtle import *
+speed(5)
+bgcolor("black")
+ht()
+setpos(0,100)
+seth(45)
+pu()
+pencolor("#F34F29")
+shape("square")
+fillcolor("#F34F29")
+shapesize(8,8,40)
+stamp()
+setpos(-55,215)
+pencolor("black")
+pd()
+seth(315)
+width(18)
+for i in range(2):
+    fd(80)
+    dot(42,"black")
+bk(80)
+seth(270)
+fd(120)
+dot(42,"black") 
+done()
