@@ -1,0 +1,22 @@
+#coursera logo in Pytohon
+
+import turtle as t
+t.speed(5)
+t.color("blue")
+t.pensize(30)
+t.pu()
+t.bk(250)
+t.pd()
+t.pensize(10)
+t.rt(180)
+t.circle(25,270)
+t.lt(180)
+t.circle(25,-315)
+t.circle(25,315)
+t.circle(-25,300)
+t.pu()
+t.fd(130)
+t.lt(30)
+t.fd(98)
+t.write("ursera", move = False, align = "center", font= ("Century Gothic",72,"bold"))
+t.done()
