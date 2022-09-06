@@ -1,4 +1,4 @@
-#gogle slides logo in Python
+#google slides logo in Python
 
 from turtle import *
 
