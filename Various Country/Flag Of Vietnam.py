@@ -1,8 +1,6 @@
 #vietname flag in Python
-
 from turtle import *
-speed(3)
-width(1)
+speed(0)
 color("red")
 begin_fill()
 goto(150,130)
