@@ -1,0 +1,20 @@
+#palau flag in Pytohn
+
+from turtle import *
+speed(3)
+width(1)
+color("#0099ff")
+begin_fill()
+goto(140,170)
+goto(140,0)
+goto(-140,0)
+goto(-140,170)
+goto(140,170)
+end_fill()
+goto(-30,35)
+color("yellow")
+begin_fill()
+circle(50)
+end_fill()
+ht()
+done()
