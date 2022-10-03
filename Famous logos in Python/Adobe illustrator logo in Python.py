@@ -1,0 +1,32 @@
+#Adobe illustrator logo in Python
+from turtle import *
+
+bgcolor('white')
+width(23)
+pencolor("#fe5a1d")
+penup()
+goto(160,-90)
+pendown()
+
+left(90)
+color("#3d0c02")
+begin_fill()
+for i in range(4):
+ forward(230)
+ circle(34,90)
+pu()
+goto(-90,-90)
+pd()
+end_fill()
+color("#fe5a1d")    
+write("A", move = False, font= ("Arial",142,"bold"))
+pu()
+goto(40,-90)
+pd()
+write("i", move = False, font= ("Arial",142,"bold"))
+pu()
+goto(65,73)
+pd()
+dot(37)
+ht()
+done()
