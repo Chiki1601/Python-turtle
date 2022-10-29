@@ -1,0 +1,31 @@
+#jamboard logo in Python
+
+from turtle import *
+speed(10)
+pu()
+goto(-80,-100)
+pd()
+color("#efc003")
+begin_fill()
+circle(109)
+end_fill()
+pu()
+goto(-80,115)
+color("#ef9503")
+begin_fill()
+for i in range(4):
+    fd(110)
+    rt(90)
+end_fill()   
+pd()
+pu()
+goto(-80,225)
+color("#ef5603")
+begin_fill()
+for i in range(4):
+    fd(110)
+    rt(90)
+end_fill()   
+pd()
+ht()
+done()

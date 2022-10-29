@@ -1,0 +1,36 @@
+#termux logo in Pytohn
+
+from turtle import *
+color("white")
+bgcolor("black")
+pu()
+goto(-220,-120)
+pd()
+begin_fill()
+rt(-50)
+fd(220)
+lt(84)
+fd(220)
+rt(132)
+fd(100)
+rt(48)
+fd(220)
+rt(84)
+fd(220)
+rt(48)
+fd(100)
+end_fill()
+
+pu()
+goto(180,-115)
+pd()
+begin_fill()
+
+for i in range(2):
+    fd(180)
+    rt(90)
+    fd(60)
+    rt(90)
+end_fill()
+ht()
+done()
